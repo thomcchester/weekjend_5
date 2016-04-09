@@ -1,0 +1,25 @@
+<form ng-submit="submit(petObject)" class="petInput">
+    <label for="imgUrl">Image URL</label>
+    <input ng-model="petObject.img" type="text" id="imgUrl" placeholder="show the pet" ><br>
+    <label for="petName">Pet's Name:</label>
+    <input ng-model="petObject.name" id="petName" type="text" placeholder="Pet's Name"><br />
+
+    <label for="petType">Pet Species:</label><br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Dragon">Dragon<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="pheonix">Pheonix<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Pegasus">Pegasus<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Centaur">Centaur<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Liger">Liger<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Mermaid">Mermaid<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="goodguy">Goodguy<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="chimera">Chimera<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Harpy">Harpy<br>
+    <input ng-model="petObject.type" type="radio" id="petType" value="Hampster">Hampster<br>
+
+    <label for="age">How Old Is said Creature?</label>
+    <input ng-model="petObject.age" type="text" id="age" placeholder="Do you even know?"><br>
+
+
+    <input type="submit" value="Imprison the Beast">
+
+</form>
